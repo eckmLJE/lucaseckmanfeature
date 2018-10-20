@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
-import Header from "./containers/Header"
-import Hero from "./containers/Hero"
+import Header from "./containers/Header";
+import Hero from "./containers/Hero";
+import Portfolio from "./containers/Portfolio"
 // import Bio from "./containers/Bio"
-// import Portfolio from "./containers/Portfolio"
 // import Footer from "./containers/Footer"
 
 class App extends Component {
@@ -13,9 +13,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Hero />
-        {/* <Bio />
         <Portfolio />
-        <Footer /> */}
       </div>
     );
   }

@@ -1,24 +1,101 @@
 header {
+  position: fixed;
+  display: flex;
   width: 100%;
   height: 120px;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
   color: rgb(31, 31, 31);
-  position: absolute;
   top: 0;
   user-select: none;
+  z-index: 9999;
+}
+
+.name-container {
+  position: relative;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+
+.gear-container {
+  display: flex;
+  height: 100%;
+}
+
+.gear {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  margin: auto;
+  background-color: transparent;
+  border: 3px solid rgb(161, 18, 18);
+  border-radius: 50%;
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.tooth {
+  position: absolute;
+  top: -7px;
+  left: 15px;
+  z-index: 1;
+  width: 5px;
+  height: 50px;
+  background: transparent;
+  border-top: 5px solid rgb(161, 18, 18);
+  border-bottom: 5px solid rgb(161, 18, 18);
+}
+
+.tooth:nth-child(2) {
+  transform: rotate(30deg);
+}
+
+.tooth:nth-child(3) {
+  transform: rotate(60deg);
+}
+
+.tooth:nth-child(4) {
+  transform: rotate(90deg);
+}
+.tooth:nth-child(5) {
+  transform: rotate(120deg);
+}
+.tooth:nth-child(6) {
+  transform: rotate(150deg);
+}
+
+.tooth:nth-child(7) {
+  transform: rotate(180deg);
+}
+
+.tooth:nth-child(8) {
+  transform: rotate(210deg);
+}
+.tooth:nth-child(9) {
+  transform: rotate(240deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 header h1 {
   position: relative;
-  display: block;
   cursor: pointer;
   padding: 0;
-  margin: 0;
+  margin-left: 10px;
   font-size: 1.75em;
   align-self: center;
+  z-index: 9998;
 }
 
 header h1 span {
@@ -53,6 +130,7 @@ nav li button {
   border: none;
   cursor: pointer;
   outline: none;
+  background-color: transparent;
   font-size: 1em;
   color: rgb(54, 54, 54);
   transition: color 1s;
@@ -123,17 +201,26 @@ button.hamburger {
   height: 100vh;
   width: 100%;
   background-color: white;
-  z-index: 9000;
+  z-index: 9995;
   transition: all 0.5s ease-in-out;
   overflow-y: hidden;
 }
 
+.hamburger-buffer {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-color: transparent;
+  z-index: 0;
+}
+
 .hamburger-menu.visible {
-  top: 0;
+  left: 0;
 }
 
 .hamburger-menu.hidden {
-  top: -100vh;
+  left: -100vh;
   transition: all 0.5s ease-in-out;
 }
 
@@ -146,7 +233,8 @@ button.hamburger {
 }
 
 .hamburger-list {
-  margin: 100px 25px;
+  position: relative;
+  margin: 0 25px;
   border: 2px solid black;
 }
 
@@ -176,6 +264,10 @@ button.hamburger {
 
 @media only screen and (min-width: 625px) {
   button.hamburger {
+    display: none;
+  }
+
+  .hamburger-menu {
     display: none;
   }
 }

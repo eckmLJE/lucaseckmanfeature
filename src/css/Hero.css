@@ -1,5 +1,5 @@
 section.hero {
     position: relative;
-    position: relative;
-    margin: 0 0 5rem;
+    width: 100%;
+    z-index: 4000;
 }

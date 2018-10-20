@@ -14,19 +14,39 @@ class Header extends Component {
   burgerX = () => (this.state.hamburger ? " exed" : null);
 
   render() {
+    const burgerClass = this.burgerX();
     return (
       <Fragment>
         <BurgerMenu toggle={this.state.hamburger} />
         <header>
-          <h1>
-            LUCAS <span>ECKM</span>
-            AN
-          </h1>
+          <div className="name-container">
+            <div className="gear-container">
+              <div className="gear">
+                <div class="center" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+                <div class="tooth" />
+              </div>
+            </div>
+            <h1>
+              LUCAS <span>ECKM</span>
+              AN
+            </h1>
+          </div>
           <button className="hamburger" onClick={this.handleBurger}>
             <div className="hamburger-box">
-              <div className={"hamburger-inner top" + this.burgerX()} />
-              <div className={"hamburger-inner middle" + this.burgerX()} />
-              <div className={"hamburger-inner bottom" + this.burgerX()} />
+              <div className={"hamburger-inner top" + burgerClass} />
+              <div className={"hamburger-inner middle" + burgerClass} />
+              <div className={"hamburger-inner bottom" + burgerClass} />
             </div>
           </button>
           <nav>
