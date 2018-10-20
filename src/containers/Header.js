@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "../css/Header.css";
+import "../css/Gear.css";
 
 import BurgerMenu from "../components/Header/BurgerMenu";
 
@@ -22,19 +23,19 @@ class Header extends Component {
           <div className="name-container">
             <div className="gear-container">
               <div className="gear">
-                <div class="center" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
-                <div class="tooth" />
+                <div className="center" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
+                <div className="tooth" />
               </div>
             </div>
             <h1>
