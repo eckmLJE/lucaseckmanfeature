@@ -9,18 +9,21 @@ import parselbg from "../assets/parselbg.jpeg";
 
 const portfolioProjects = [
   {
+    url: "http://www.lucaseckman.com/concertplan",
     title: "CONCERTPLAN",
     content:
       "View live concert data from TicketMaster. Start plans and comment with your friends to attend concerts.",
     background: concertplanbg
   },
   {
+    url: "http://www.lucaseckman.com/roomseek",
     title: "ROOMSEEK",
     content:
       "Set rent, move date, and pet filters to view available bedrooms across several apartments. ",
     background: osloadmobg
   },
   {
+    url: "https://medium.com/@lucas.eckman/easy-as-1-2-3-cdca597f35a6",
     title: "PARSEL",
     content:
       "Read this blog post on devising a text annotation feature with React and Redux.",

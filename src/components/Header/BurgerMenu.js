@@ -13,10 +13,20 @@ const BurgerMenu = props => {
       </div> */}
       <div className="hamburger-list-container">
         <div className="hamburger-list">
-          <div className="hamburger-item">SAY HELLO</div>
-          <div className="hamburger-item">GITHUB</div>
-          <div className="hamburger-item">LINKEDIN</div>
-          <div className="hamburger-item">KEYBASE</div>
+          <div className="hamburger-item">
+            <a href="mailto:hello@lucaseckman.com">SAY HELLO</a>
+          </div>
+          <div className="hamburger-item">
+            <a href="https://github.com/eckmLJE">GITHUB</a>
+          </div>
+          <div className="hamburger-item">
+            <a href="https://www.linkedin.com/in/lucas-eckman-1a707717/">
+              LINKEDIN
+            </a>
+          </div>
+          <div className="hamburger-item">
+            <a href="https://keybase.io/eckm">KEYBASE</a>
+          </div>
         </div>
       </div>
     </div>

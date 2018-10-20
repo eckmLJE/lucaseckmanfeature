@@ -193,6 +193,13 @@ button.hamburger {
   transition: all 0.3s ease-in-out;
 }
 
+.hamburger-item a,
+.hamburger-item a:link,
+.hamburger-item a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .hamburger-item:hover {
   font-size: 4em;
 }

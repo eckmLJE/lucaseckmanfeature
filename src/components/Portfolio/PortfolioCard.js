@@ -5,7 +5,12 @@ import "../../css/PortfolioCard.css";
 const PortfolioCard = props => {
   return (
     <div className="portfolio-card">
-      <div className="portfolio-card-inner">
+      <a
+        href={props.project.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="portfolio-card-inner"
+      >
         <div
           className="card-image"
           style={{ backgroundImage: `url(${props.project.background})` }}
@@ -14,7 +19,7 @@ const PortfolioCard = props => {
           <h1>{props.project.title}</h1>
           <p>{props.project.content}</p>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

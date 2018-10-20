@@ -2,6 +2,6 @@ section.hero {
   position: relative;
   width: 100%;
   z-index: 4000;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(235, 235, 235);
   height: 27vh;
 }
