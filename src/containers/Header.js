@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import "../css/Header.css";
-import "../css/Gear.css";
+
+import Gear from "../components/Header/Gear";
 
 import BurgerMenu from "../components/Header/BurgerMenu";
 
@@ -21,23 +22,7 @@ class Header extends Component {
         <BurgerMenu toggle={this.state.hamburger} />
         <header>
           <div className="name-container">
-            <div className="gear-container">
-              <div className="gear">
-                <div className="center" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-                <div className="tooth" />
-              </div>
-            </div>
+            <Gear />
             <h1>
               LUCAS <span>ECKM</span>
               AN

@@ -9,7 +9,7 @@ const Hero = () => {
         style={{
           backgroundColor: "rgb(245, 245, 245",
           width: "100%",
-          height: "50vh"
+          height: "30vh"
         }}
       />
     </section>
