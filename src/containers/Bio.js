@@ -6,9 +6,8 @@ const Bio = () => {
     <section className="bio">
       <div className="bio-content">
         <p>
-          <strong>Hello. </strong>
-          I'm Lucas, a full-stack web developer and urban design consultant
-          living in Washington, DC.
+          <strong>Lucas Eckman</strong> is a full-stack web developer and urban
+          design consultant living in Washington, DC.
         </p>
       </div>
     </section>

@@ -6,7 +6,7 @@ import BurgerMenu from "../components/Header/BurgerMenu";
 import ContactCard from "../components/Header/ContactCard";
 
 class Header extends Component {
-  state = { hamburger: false, contact: false };
+  state = { hamburger: false, activeNav: "portfolio" };
 
   handleBurger = e => {
     e.preventDefault();
@@ -19,6 +19,8 @@ class Header extends Component {
   };
 
   burgerX = () => (this.state.hamburger ? " exed" : null);
+
+  handleNav
 
   render() {
     const burgerClass = this.burgerX();
@@ -41,18 +43,16 @@ class Header extends Component {
               <div className={"hamburger-inner bottom" + burgerClass} />
             </div>
           </button>
-          <nav>
+          {/* <nav>
             <ul>
               <li>
                 <button>Portfolio</button>
               </li>
               <li>
-                <button onClick={this.handleContact}>
-                  Me <i />
-                </button>
+                <button>About</button>
               </li>
             </ul>
-          </nav>
+          </nav> */}
         </header>
       </Fragment>
     );

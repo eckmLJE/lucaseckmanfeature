@@ -11,7 +11,7 @@ const portfolioProjects = [
   {
     title: "CONCERTPLAN",
     content:
-      "View live concert data from TicketMaster. Start plans and add comments with you friends to attend concerts.",
+      "View live concert data from TicketMaster. Start plans and comment with your friends to attend concerts.",
     background: concertplanbg
   },
   {

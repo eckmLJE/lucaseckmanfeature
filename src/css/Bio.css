@@ -1,6 +1,6 @@
 section.bio {
   width: 100%;
-  background-color: rgb(245, 245, 245);
+  margin-top: -40px;
 }
 
 .bio-content {
@@ -8,10 +8,15 @@ section.bio {
   max-width: 1150px;
   margin: auto;
   text-align: center;
-  min-height: 300px;
 }
 
 .bio p {
   margin-top: 0;
-  font-size: 1.5em;
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width: 1000px) {
+  section.bio {
+    display: none;
+  }
 }
