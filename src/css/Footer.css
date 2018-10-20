@@ -1,0 +1,47 @@
+section.footer {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  bottom: 0;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  color: white;
+}
+
+.footer-content ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-content li {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+}
+
+.footer-content li button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: white;
+  transition: color 1s;
+}
+
+@media only screen and (max-width: 1000px) {
+  section.footer {
+    position: absolute;
+    bottom: 0;
+  }
+}

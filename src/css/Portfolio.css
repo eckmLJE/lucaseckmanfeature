@@ -1,6 +1,7 @@
 .portfolio {
   position: relative;
   display: block;
+  padding-bottom: 100px;
 }
 
 .portfolio-container {
@@ -10,70 +11,14 @@
   align-items: center;
   width: 80%;
   max-width: 1000px;
-  /* flex-flow: row nowrap; */
   justify-content: space-around;
   background-color: transparent;
   margin: auto;
 }
 
-.portfolio-card {
-  /* text-align: center; */
-  padding: 10px;
-  width: 31%;
-  height: auto;
-  background-color: transparent;
-  z-index: 5000;
-  /* transition: all 0.5s; */
-}
-
-.portfolio-card-inner {
-  padding: 20px;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  border-radius: 20px;
-  background-color: white;
-  margin: 5px;
-  height: 350px;
-  width: 100%;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  filter: grayscale(100%) contrast(120%);
-  background-size: auto 120%;
-  background-position: center;
-  transition: all 0.5s;
-}
-
-.portfolio-card-inner:hover {
-  filter: none;
-  height: 375px;
-}
-
-.portfolio-card-inner h1 {
-  font-size: 1.75em;
-  margin: auto;
-  color: white;
-  z-index: 9999;
-}
-
-.portfolio-card-inner p {
-  color: white;
-}
-
-.portfolio-card-inner:hover {
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
 @media only screen and (max-width: 1000px) {
   .portfolio-container {
     flex-flow: column nowrap;
-  }
-
-  .portfolio-card {
-    width: 75%;
-    max-width: 500px;
-    min-width: 325px;
   }
 }
 

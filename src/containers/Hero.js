@@ -3,17 +3,7 @@ import React from "react";
 import "../css/Hero.css";
 
 const Hero = () => {
-  return (
-    <section className="hero">
-      <div
-        style={{
-          backgroundColor: "rgb(245, 245, 245",
-          width: "100%",
-          height: "30vh"
-        }}
-      />
-    </section>
-  );
+  return <section className="hero" />;
 };
 
 export default Hero;

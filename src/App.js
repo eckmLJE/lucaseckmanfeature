@@ -3,9 +3,9 @@ import "./App.css";
 
 import Header from "./containers/Header";
 import Hero from "./containers/Hero";
-import Portfolio from "./containers/Portfolio"
-// import Bio from "./containers/Bio"
-// import Footer from "./containers/Footer"
+import Portfolio from "./containers/Portfolio";
+// import Bio from "./containers/Bio";
+// import Footer from "./containers/Footer";
 
 class App extends Component {
   render() {
@@ -14,6 +14,8 @@ class App extends Component {
         <Header />
         <Hero />
         <Portfolio />
+        {/* <Bio /> */}
+        {/* <Footer /> */}
       </div>
     );
   }

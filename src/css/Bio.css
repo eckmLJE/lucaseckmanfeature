@@ -1,0 +1,17 @@
+section.bio {
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+
+.bio-content {
+  padding: 50px;
+  max-width: 1150px;
+  margin: auto;
+  text-align: center;
+  min-height: 300px;
+}
+
+.bio p {
+  margin-top: 0;
+  font-size: 1.5em;
+}

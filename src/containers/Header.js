@@ -2,15 +2,20 @@ import React, { Component, Fragment } from "react";
 import "../css/Header.css";
 
 import Gear from "../components/Header/Gear";
-
 import BurgerMenu from "../components/Header/BurgerMenu";
+import ContactCard from "../components/Header/ContactCard";
 
 class Header extends Component {
-  state = { hamburger: false };
+  state = { hamburger: false, contact: false };
 
   handleBurger = e => {
     e.preventDefault();
     this.setState({ hamburger: !this.state.hamburger });
+  };
+
+  handleContact = e => {
+    e.preventDefault();
+    this.setState({ contact: !this.state.contact });
   };
 
   burgerX = () => (this.state.hamburger ? " exed" : null);
@@ -20,6 +25,7 @@ class Header extends Component {
     return (
       <Fragment>
         <BurgerMenu toggle={this.state.hamburger} />
+        <ContactCard toggle={this.state.contact} />
         <header>
           <div className="name-container">
             <Gear />
@@ -38,15 +44,12 @@ class Header extends Component {
           <nav>
             <ul>
               <li>
-                <button>Home</button>
+                <button>Portfolio</button>
               </li>
               <li>
-                <button>
-                  Portfolio <i />
+                <button onClick={this.handleContact}>
+                  Me <i />
                 </button>
-              </li>
-              <li>
-                <button>Contact</button>
               </li>
             </ul>
           </nav>
