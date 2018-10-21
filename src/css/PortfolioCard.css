@@ -25,6 +25,10 @@
   transform: scale(1.03);
 }
 
+.portfolio-card-inner:active {
+  transform: scale(1.02);
+}
+
 .card-image {
   width: 100%;
   height: 60%;
