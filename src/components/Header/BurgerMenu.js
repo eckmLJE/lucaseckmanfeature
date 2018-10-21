@@ -1,4 +1,5 @@
 import React from "react";
+import ljeresume from "../../assets/lje-resume.pdf";
 
 const BurgerMenu = props => {
   const visibility = props.toggle
@@ -26,6 +27,9 @@ const BurgerMenu = props => {
           </div>
           <div className="hamburger-item">
             <a href="https://keybase.io/eckm">KEYBASE</a>
+          </div>
+          <div className="hamburger-item">
+            <a href={ljeresume}>RESUME</a>
           </div>
         </div>
       </div>

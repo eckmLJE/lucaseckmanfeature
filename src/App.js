@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./containers/Header";
 import Hero from "./containers/Hero";
 import Portfolio from "./containers/Portfolio";
-// import Bio from "./containers/Bio";
+import Bio from "./containers/Bio";
 // import Footer from "./containers/Footer";
 
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
         <Header />
         <Hero />
         <Portfolio />
-        {/* <Bio /> */}
+        <Bio />
         {/* <Footer /> */}
       </div>
     );

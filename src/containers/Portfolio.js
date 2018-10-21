@@ -12,7 +12,7 @@ const portfolioProjects = [
     url: "http://www.lucaseckman.com/concertplan",
     title: "CONCERTPLAN",
     content:
-      "View live concert data from TicketMaster. Start plans and comment with your friends to attend concerts.",
+      "View live concert data. Start plans and comment with your friends to attend concerts.",
     background: concertplanbg
   },
   {
