@@ -36,7 +36,7 @@ const Bio = () => {
               <li>Hiking + Camping</li>
               <li>Travel</li>
               <li>Esports</li>
-              <li>My dog named Lady</li>
+              {/* <li>My dog named Lady</li> */}
             </ul>
           </div>
         </div>
