@@ -48,18 +48,40 @@ class Header extends Component {
           <nav>
             <ul>
               <li>
-                <a href="mailto:hello@lucaseckman.com">SAY HELLO</a>
+                <a
+                  href="mailto:hello@lucaseckman.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  SAY HELLO
+                </a>
               </li>
               <li>
-                <a href="https://github.com/eckmLJE">GITHUB</a>
+                <a
+                  href="https://github.com/eckmLJE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GITHUB
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/lucaseckman/">
+                <a
+                  href="https://www.linkedin.com/in/lucaseckman/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   LINKEDIN
                 </a>
               </li>
               <li>
-                <a href="https://keybase.io/eckm">KEYBASE</a>
+                <a
+                  href="https://keybase.io/eckm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  KEYBASE
+                </a>
               </li>
             </ul>
           </nav>
