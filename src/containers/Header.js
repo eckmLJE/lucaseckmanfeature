@@ -5,6 +5,8 @@ import Gear from "../components/Header/Gear";
 import BurgerMenu from "../components/Header/BurgerMenu";
 import ContactCard from "../components/Header/ContactCard";
 
+// import ljeresume from "../assets/lje-resume.pdf";
+
 class Header extends Component {
   state = { hamburger: false, activeNav: "portfolio" };
 
@@ -20,7 +22,7 @@ class Header extends Component {
 
   burgerX = () => (this.state.hamburger ? " exed" : null);
 
-  handleNav
+  handleNav;
 
   render() {
     const burgerClass = this.burgerX();
@@ -43,16 +45,24 @@ class Header extends Component {
               <div className={"hamburger-inner bottom" + burgerClass} />
             </div>
           </button>
-          {/* <nav>
+          <nav>
             <ul>
               <li>
-                <button>Portfolio</button>
+                <a href="mailto:hello@lucaseckman.com">SAY HELLO</a>
               </li>
               <li>
-                <button>About</button>
+                <a href="https://github.com/eckmLJE">GITHUB</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/lucas-eckman-1a707717/">
+                  LINKEDIN
+                </a>
+              </li>
+              <li>
+                <a href="https://keybase.io/eckm">KEYBASE</a>
               </li>
             </ul>
-          </nav> */}
+          </nav>
         </header>
       </Fragment>
     );

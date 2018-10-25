@@ -82,6 +82,19 @@ nav i {
   margin: 0 3px 3px 3px;
 }
 
+header nav a:link,
+header nav a:visited,
+header nav a:active {
+  font-size: 0.9em;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav a:hover {
+  color: rgb(161, 18, 18);
+  font-size: 1em;
+}
+
 /* Hamburger */
 
 button.hamburger {
@@ -188,7 +201,7 @@ button.hamburger {
   cursor: pointer;
   border-bottom: 3px solid rgb(161, 18, 18);
   padding: 20px;
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 700;
   transition: all 0.3s ease-in-out;
   user-select: none;
@@ -209,7 +222,7 @@ button.hamburger {
   font-size: 4em;
 }
 
-/* @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   nav,
   nav li,
   nav ul,
@@ -227,4 +240,4 @@ button.hamburger {
   .hamburger-menu {
     display: none;
   }
-} */
+}
