@@ -54,7 +54,7 @@ class Header extends Component {
                 <a href="https://github.com/eckmLJE">GITHUB</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/lucas-eckman-1a707717/">
+                <a href="https://www.linkedin.com/in/lucaseckman/">
                   LINKEDIN
                 </a>
               </li>
