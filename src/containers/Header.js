@@ -49,15 +49,6 @@ class Header extends Component {
             <ul>
               <li>
                 <a
-                  href="mailto:hello@lucaseckman.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  SAY HELLO
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://github.com/eckmLJE"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -81,6 +72,15 @@ class Header extends Component {
                   rel="noopener noreferrer"
                 >
                   KEYBASE
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:hello@lucaseckman.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  SAY HELLO
                 </a>
               </li>
             </ul>
