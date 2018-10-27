@@ -92,7 +92,7 @@ header nav a:active {
 
 header nav a:hover {
   color: rgb(161, 18, 18);
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
 /* Hamburger */
