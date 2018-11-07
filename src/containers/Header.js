@@ -5,8 +5,6 @@ import Gear from "../components/Header/Gear";
 import BurgerMenu from "../components/Header/BurgerMenu";
 import ContactCard from "../components/Header/ContactCard";
 
-// import ljeresume from "../assets/lje-resume.pdf";
-
 class Header extends Component {
   state = { hamburger: false, activeNav: "portfolio" };
 
