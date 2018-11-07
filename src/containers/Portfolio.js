@@ -5,7 +5,7 @@ import PortfolioCard from "../components/Portfolio/PortfolioCard";
 
 import concertplanbg from "../assets/concertplanbg.jpg";
 import osloadmobg from "../assets/osloadmobg.jpeg";
-import parselbg from "../assets/parselbg.jpeg";
+import messtelbg from "../assets/messtelbg.png"
 
 const portfolioProjects = [
   {
@@ -16,18 +16,18 @@ const portfolioProjects = [
     background: concertplanbg
   },
   {
+    url: "http://www.lucaseckman.com/messtel",
+    title: "MESSTEL",
+    content:
+      "DC couriers leave intel for each other on this Mapbox enabled discussion app.",
+      background: messtelbg
+  },
+  {
     url: "http://www.lucaseckman.com/roomseek",
     title: "ROOMSEEK",
     content:
       "Set rent, move date, and pet filters to view available bedrooms across several apartments. ",
     background: osloadmobg
-  },
-  {
-    url: "https://medium.com/@lucas.eckman/easy-as-1-2-3-cdca597f35a6",
-    title: "PARSEL",
-    content:
-      "Read this blog post on devising a text annotation feature with React and Redux.",
-    background: parselbg
   }
 ];
 
